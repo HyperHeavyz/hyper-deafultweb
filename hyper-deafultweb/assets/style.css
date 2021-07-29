@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1604964432806-254d07c11f32?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.info{
+    text-align: center;
+    margin-top: 15%;
+    width: 400px;
+    margin-left: 20%;
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.info p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 10px;
+}
+
+.info a{
+    background-color: #ffc401;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-shadow: 4px 2px 20px rgb(0, 0, 0);
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+.logo{
+    margin-bottom: 25px;
+}
+
+
+.player{
+    position: absolute;
+    top: 30%;
+    right: 20%;
+}
+
+.change{
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 1600px) {
+    .player {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .player {
+        display: none;
+    }
+    .info{
+        text-align: center;
+        margin-top: 15%;
+        width: 100%;
+        margin-left: 2%;
+    }
+    
+    .logo{
+      margin-left: -100px;
+    }
+
+    .discord{
+        margin-left: -100px;
+    }
+}
+
+.sumbit{
+    border:0;
+    background: rgb(18, 20, 20);
+    display: block;
+    margin: 10px auto;
+    position: absolute;
+    width: 132px;
+    left: 648px;
+    top: 110.92px;
+    padding: 14px 40px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    --border-radius: 4px;
+    transition: 0.45s;
+    box-shadow: 2px 2px 5px rgba(75, 130, 206, 0.136);
+    cursor: pointer;
+  }
+
+  .sumbit:hover{
+    background: rgb(18, 20, 20);
+    box-shadow: 2px 2px 5px rgba(44, 99, 177, 0.462);
+  }
+
+  .sumbit2{
+    border:0;
+    background: rgb(18, 20, 20);
+    display: block;
+    margin: 10px auto;
+    position: absolute;
+    width: 132px;
+    left: 478px;
+    top: 110.92px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 14px 40px;
+    outline: none;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    --border-radius: 4px;
+    transition: 0.45s;
+    box-shadow: 2px 2px 5px rgba(206, 75, 75, 0.306);
+    cursor: pointer;
+  }
+
+  .sumbit2:hover{
+    background: rgb(18, 20, 20);
+    box-shadow: 2px 2px 5px rgba(177, 44, 44, 0.558);
+  }
+
+@keyframes fadeInRight {
+    0% {
+       opacity: 0;
+       transform: translateX(50px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ } 
